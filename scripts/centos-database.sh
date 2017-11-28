@@ -7,7 +7,7 @@ chkconfig mysqld on
 
 service mysqld start
 
-mysql -u root -e "SHOW DATABSES";
+mysql -u root -e "SHOW DATABASES";
 
 # shut down iptables
 service iptables stop
